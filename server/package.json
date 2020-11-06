@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce-server",
+  "version": "1.0.0",
+  "description": "The rest API server for the e-commerce website in nodeJs Express",
+  "main": "index.js",
+  "author": "Osama Bentaib",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "netlify-lambda": "^2.0.1",
+    "serverless-http": "^2.6.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {}
+}
