@@ -1,1 +1,3 @@
-module.exports = `mongodb+srv://is_osama_bentaib_mongodb:QDN7MK4QHpSUtd7K@cluster0.ctfnj.mongodb.net/ecommerce?retryWrites=true&w=majority`;
+module.exports = ``;// put your mongoBD connection here
+// for example
+"mongodb+srv://<USER>:<PWD>@cluster0.ctfnj.mongodb.net/<DB name>?retryWrites=true&w=majority"
